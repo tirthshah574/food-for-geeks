@@ -79,6 +79,7 @@ header {
 
 #videoBG {
   width: 100vw;
+  size: 100vw;
 }
 
 .about {

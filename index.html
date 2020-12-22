@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="navbar">
+      <a href="#" class="logo">
+        <img src="images/logo.png" height="100px" width="100px" alt="logo" />
+      </a>
+      <nav>
+        <ul class="nav_links">
+          <li class="items"><a class="link" href="#about">About</a></li>
+          <li class="items"><a class="link" href="#hungry">Hungry</a></li>
+          <li class="items"><a class="link" href="#locations">Locations</a></li>
+        </ul>
+      </nav>
+      <a href="#contact"><button class="nav-btn">Contact US</button></a>
+    </header>
+
+    <main>
+      <!-- <div class="main-img"></div> -->
+      <video
+        src="images/video.mp4"
+        id="videoBG"
+        poster="https://images.pexels.com/photos/1049626/pexels-photo-1049626.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+        autoplay
+        muted
+        loop
+      ></video>
+      <h2 class="title" id="about">About</h2>
+
+      <article class="about">
+        <img
+          class="chef-img"
+          height="200px"
+          width="200px"
+          src="images/chef.jpg"
+          alt=""
+        />
+        Passion for food has driven me to every nook and corner of the world.
+        From becoming the youngest executive chef at a five star hotel, to
+        hosting my own cooking shows, it is my love for cooking that has got
+        this far. Through this website, I intend to take you on a culinary
+        journey, exploring new places, cultures and flavours. Let’s engage,
+        exchange and evolve our skills and taste buds.
+      </article>
+      <h2 id="hungry" class="title">Images</h2>
+      <div class="container">
+        <img
+          class="img-grid"
+          src="https://images.unsplash.com/photo-1499028344343-cd173ffc68a9?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Nnx8fGVufDB8fHw%3D&auto=format&fit=crop&w=800&q=60"
+        />
+        <img
+          class="img-grid"
+          src="https://images.unsplash.com/photo-1506354666786-959d6d497f1a?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTV8fHxlbnwwfHx8&auto=format&fit=crop&w=800&q=60"
+        />
+        <img
+          class="img-grid"
+          src="https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1350&q=80"
+        />
+        <img
+          class="img-grid"
+          src="https://images.unsplash.com/photo-1496116218417-1a781b1c416c?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1350&q=80"
+        />
+        <img
+          class="img-grid"
+          src="https://images.unsplash.com/photo-1504113888839-1c8eb50233d3?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxleHBsb3JlLWZlZWR8NTh8fHxlbnwwfHx8&auto=format&fit=crop&w=800&q=60"
+        />
+        <img
+          class="img-grid"
+          src="https://images.unsplash.com/photo-1447078806655-40579c2520d6?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1350&q=80"
+        />
+      </div>
+
+      <h2 id="locations" class="title">Locations</h2>
+      <div class="table-container">
+        <table class="add-table">
+          <thead>
+            <tr>
+              <th>City</th>
+              <th>Address</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Los Angeles</td>
+              <td>
+                700 S Flower Street, Suite 1000, Los Angeles, CA 90017 USA
+              </td>
+            </tr>
+            <tr>
+              <td>Chicago</td>
+              <td>3 West Monroe Street, Chicago, IL 60603 USA</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <h2 id="contact" class="title">Contact US</h2>
+      <div class="contact-us">
+        <p class="someText">Hungry? Wanna meet for real?</p>
+        <input class="input" required type="text" name="" placeholder="Name" />
+        <input class="input" type="email" name="" placeholder="Email" />
+        <textarea
+          placeholder="Enter your message here..."
+          class="input"
+          cols="30"
+          rows="7"
+        ></textarea>
+        <button class="btn">Send Message</button>
+      </div>
+    </main>
+    <footer>
+      <div class="footer">
+        <p class="love">
+          Crafted with <i class="fa fa-heart" aria-hidden="true"></i> and
+          <i class="fa fa-coffee" aria-hidden="true"></i> in Ahmedabad
+        </p>
+        <p class="rights">&copy All rights reserved by Hungry & Co.</p>
+      </div>
+    </footer>
+  </body>
+</html>

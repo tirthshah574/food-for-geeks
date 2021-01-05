@@ -116,11 +116,13 @@ header {
   width: 350px;
   height: 230px;
   margin: 10px;
+  background-size: contain;
+  background-repeat: no-repeat;
   transition: all 1s;
 }
 
 .img-grid:hover {
-  transform: scale(1.1);
+  /* transform: scale(1.01); */
 }
 
 .contact-us {
